@@ -55,7 +55,11 @@
             background-color: #4CAF50;
             border-radius: 5px;
         }
-
+        #p {
+            color: #fff;
+            background-color: #4CAF50;
+            border-radius: 5px;
+        }
         footer {
             background: #333;
             color: white;
@@ -99,6 +103,7 @@
             <pre>
 &lt;p&gt;This is a paragraph of text.&lt;/p&gt;
             </pre>
+            <button id="p">More info</button>
         </section>
 
         <section id="links">
@@ -162,6 +167,9 @@
 <script>
     document.getElementById("H1-6").addEventListener("click", function () {
         open("h1-6.html", "_blank");
+    }); 
+    document.getElementById("p").addEventListener("click", function () {
+        open("p.html", "_blank");
     });
 </script>
 
